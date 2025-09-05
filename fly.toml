@@ -8,6 +8,3 @@ primary_region = "iad"
 [env]
   PYTHONUNBUFFERED = "1"
   MISE_PYTHON_COMPILE = "1"
-
-[processes]
-  worker = "python finale.py"
