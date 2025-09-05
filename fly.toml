@@ -1,4 +1,4 @@
-app = "tojan-bot"
+app = "tojan-bot-zkscma"
 primary_region = "iad"
 
 [build]
@@ -10,4 +10,4 @@ primary_region = "iad"
   MISE_PYTHON_COMPILE = "1"
 
 [processes]
-  app = "python finale.py"
+  worker = "python finale.py"
