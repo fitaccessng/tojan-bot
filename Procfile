@@ -1,1 +1,0 @@
-worker: python finale.py
