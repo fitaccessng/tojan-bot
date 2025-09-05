@@ -2,9 +2,7 @@ app = "tojan-bot-zkscma"
 primary_region = "iad"
 
 [build]
-  builder = "paketobuildpacks/builder:base"
-  buildpacks = ["gcr.io/paketo-buildpacks/python"]
+  dockerfile = "Dockerfile"
 
 [env]
   PYTHONUNBUFFERED = "1"
-  MISE_PYTHON_COMPILE = "1"
