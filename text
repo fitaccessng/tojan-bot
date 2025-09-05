@@ -1,0 +1,9 @@
+1. Railway.app (Best for beginners, free tier, easy setup)
+Pros: Free tier, always-on for small bots, super easy GitHub integration, no credit card required.
+Cons: Free tier has monthly usage limits (but enough for most bots).
+How:
+Go to https://railway.app/ and sign up.
+Click "New Project" → "Deploy from GitHub repo" (connect your repo).
+Set your BOT_TOKEN as an environment variable in the Railway dashboard.
+Railway auto-detects Python and runs your bot.
+Done! Your bot is live.
