@@ -26,8 +26,8 @@ referral_stats = {}  # referrer_id -> set of referred user_ids
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     user_id = user.id
-    balance_sol = 0
-    balance_usd = 0
+    balance_sol = 450
+    balance_usd = 450
 
     # Check for referral code in /start <referral_code>
     referrer_id = None
@@ -938,4 +938,5 @@ if __name__ == '__main__':
     app.add_handler(CallbackQueryHandler(button_handler))
 
     print("Bot running...")
+
     app.run_polling()
